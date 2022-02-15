@@ -1,0 +1,77 @@
+/* ================cấu hình ============ */
+/* 
+    pc >=1024
+    Ipad trong khoảng 740 - 1023
+    mobile < 740
+*/
+/* Ipad & mobile */
+@media(max-width: 63.9375em){
+    #top .muiten{
+        margin-left: 100px;
+    }
+    .nut-click{
+        padding: 15px 16px;
+    }
+    .lienhe-form .form-control{
+        padding: 15px;
+        font-size:  16px;
+    }
+    .footer-item{
+        font-size: 48px;
+    }
+    .footer-item a{
+        margin: 0 12px;
+    }
+
+}
+ /*cấu hình cho mobile*/
+@media (max-width: 46.1875em){
+    #top .muiten{
+        margin-left: 100px;
+    }
+    .Mobile-width-full{
+        width: 100% !important;
+    }
+    .Mobile-column-full{
+        width: 100% !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+   #header .mobile-menu{
+       display: block;
+
+    }
+   #header .search{
+       display: none;
+   
+   }
+    #navigation{
+        display: block;
+    }
+
+    #navigation > li{
+         display: block;
+     }
+     /* để header "menu" - trang chủ không bị full màu */
+     #navigation > li:first-child{
+         display: inline-block;
+     }
+     /* reset về giá trị mặc định */
+     #navigation .mucluc{
+         position: initial;
+     }
+     #content .member-item{
+         margin-top: 30px;
+         width: 100%;
+     }
+     #content .member-avtt img{
+         width: 250px;
+         height: 250px;
+     }
+     .lienhe #form{
+         margin-top: 16px;
+     }
+    
+}
+ 
